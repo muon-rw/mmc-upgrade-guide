@@ -4,6 +4,7 @@
 Unfortunately, due to worldgen incompatibilities causing corruption over time, some crucial worldgen mods had to be removed in this version. 
 
 What this means is that existing worlds won't load by default. But thankfully, this is something you can fix if you really want to keep your existing world!
+
 *Note: You may end up with some "hard lines" of sheer cliffs where the old generation connects with the new in some cases. This is an unfortunate potential side effect of changing generators, and not a sign of corruption*
 
 ## So how do I convert my old world?
