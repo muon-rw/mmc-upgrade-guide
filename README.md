@@ -31,6 +31,4 @@ todo: include image
 
 #### 7. Click **save**. You should now be able to use your v26.5 world on v27! Just copy the world folder into the **saves** folder, and join. 
 
-Happy crafting! If you have issues, please don't hesitate to join our Discord: 
-
-Head to the **#medieval-mc-forge** channel in https://discord.gg/lunapixel
+Happy crafting! If you have issues, please join our Discord https://discord.gg/lunapixel and head to the **#medieval-mc-forge** channel. 
