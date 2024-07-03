@@ -35,6 +35,8 @@ To start, you'll need some software to view and edit data files. I recommend NBT
 
 [image]
 
-#### 7. Click **save**. You should now be able to use your v26.5 world on v27! Just copy the world folder into the **saves** folder, and join. 
+#### 7. Repeat steps 4-6, but with **minecraft:overworld** instead of **minecraft:the_end** 
+
+#### 8. Click **save**. You should now be able to use your v26.5 world on v27! Just copy the world folder into the **saves** folder, and join. 
 
 Happy crafting! If you have issues, please join our Discord https://discord.gg/lunapixel and head to the **#medieval-mc-forge** channel. 
