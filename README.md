@@ -1,7 +1,7 @@
 # Upgrading an existing Medieval MC 1.20.1 Forge world to v27
 *Why do I have to do this?*
 
-Unfortunately, due to worldgen incompatibilities causing corruption for long-standing worlds, some crucial worldgen mods had to be removed in this version. 
+Unfortunately, due to worldgen incompatibilities causing corruption over time, some crucial worldgen mods had to be removed in this version. 
 
 What this means is that existing worlds won't load by default. But thankfully, this is something you can fix if you really want to keep your existing world!
 *Note: You may end up with some "hard lines" of sheer cliffs where the old generation connects with the new in some cases. This is an unfortunate potential side effect of changing generators, and not a sign of corruption*
