@@ -27,7 +27,7 @@ To start, you'll need some software to view and edit data files. I recommend NBT
 - Open the **level.dat** for this *new world* in NBT Studio. *If your old level.dat was open to get the seed, leave both windows open.*
 
 ### 4. Copy the new generator block
-- In the *new* **level.dat**, go to **Data\WorldGenSettings\dimensions\minecraft:the_end**, select the block that says "**generator:** [3 entries]", and copy. 
+- In the *new* **level.dat**, go to **Data\WorldGenSettings\dimensions\minecraft:the_end**, select the block that says "**generator:** [3 entries]", and **copy**. 
 
 [image]
 
