@@ -18,25 +18,32 @@ To start, you'll need some software to view and edit data files. I recommend NBT
   
 [image]
 
-#### 2. Using Medieval MC Forge 1.20.1 v27, start up the game and generate a new world using your old seed, with the same settings.
+#### 2. Generate a new level.dat
+- Using Medieval MC Forge 1.20.1 v27, start up the game and generate a new world using your old seed, with the same settings.
 (To do this with a server, add the seed to server.properties, and start.) 
 
-#### 3. Now, open up the **level.dat** for this *new world* in NBT Studio. If you already opened your old world to get the seed, leave both windows open.
+#### 3. Open the new level.dat 
+- Use the level.dat for this *new world* in NBT Studio. If you already opened your old world to get the seed, leave both windows open.
 
-#### 4. In the new file, go to **Data\WorldGenSettings\dimensions\minecraft:the_end**, select the block that says "**generator:** [3 entries]", and copy. 
-
-[image]
-
-#### 5. Now go back to the **level.dat** for your *old world* (or open it if you hadn't already to get the seed). Navigate to **Data\WorldGenSettings\dimensions** again, and select its existing "**generator:** [3 entries]" block, and **delete**. 
+#### 4. Copy the new generator block
+- In the new file, go to **Data\WorldGenSettings\dimensions\minecraft:the_end**, select the block that says "**generator:** [3 entries]", and copy. 
 
 [image]
 
-#### 6. Still in the old world, select "**minecraft:the_end:** [2 entries]", and **paste** the **generator** block (that we copied earlier from the new world) inside of it. It should look like this:
+#### 5. Delete your old world's generator block
+- Now open the **level.dat** for your *old world* (or just go back to it, if it was already open from getting the seed).
+- Navigate to **Data\WorldGenSettings\dimensions**, and select its existing "**generator:** [3 entries]" block, and **delete**. 
+
+[image]
+
+#### 6. Paste the new generator block into the old level.dat
+- Still in the old world, select "**minecraft:the_end:** [2 entries]", and **paste** the **generator** block (that we copied earlier from the new world) inside of it. It should look like this:
 
 [image]
 
 #### 7. Repeat steps 4-6, but with **minecraft:overworld** instead of **minecraft:the_end** 
 
-#### 8. Click **save**. You should now be able to use your v26.5 world on v27! Just copy the world folder into the **saves** folder, and join. 
+#### 8. Click **save**. 
+- You should now be able to use your v26.5 world on v27! Just copy the world folder into the **saves** folder, and join. 
 
 Happy crafting! If you have issues, please join our Discord https://discord.gg/lunapixel and head to the **#medieval-mc-forge** channel. 
