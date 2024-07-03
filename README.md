@@ -32,7 +32,7 @@ To start, you'll need some software to view and edit data files. I recommend NBT
 [image]
 
 ### 5. Delete your old world's generator block
-- Now open your *old world's* **level.dat** (or just go back to it, if it was already open from getting the seed).
+- Now open your *old world's* **level.dat** (or just go back to it, if it's already open).
 - Navigate to **Data\WorldGenSettings\dimensions**, and select its existing "**generator:** [3 entries]" block, and **delete**. 
 
 [image]
