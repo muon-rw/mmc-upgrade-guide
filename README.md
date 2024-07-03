@@ -15,7 +15,7 @@ To start, you'll need some software to view and edit data files. I recommend NBT
 - To find this easily if your v26.5 world is still running, you can use the `/seed` command in-game if you have cheats enabled or Op permissions.
 - Otherwise, inside the world folder, open up the **level.dat** file using NBT Studio, and you can find the seed as one of the values in **Data\WorldGenSettings**
   
-todo: image of seed entry 
+[image]
 
 #### 2. Using Medieval MC Forge 1.20.1 v27, start up the game and generate a new world using your seed, with the same settings.
 (To do this with a server, add the seed to server.properties before starting up) 
@@ -24,15 +24,15 @@ todo: image of seed entry
 
 #### 4. In the new file, go to **Data\WorldGenSettings\dimensions\minecraft:the_end**, select the block that says "**generator:** [3 entries]", and copy. 
 
-todo: include image
+[image]
 
 #### 5. Now go back to the **level.dat** for your *old world* (or open it if you hadn't already to get the seed). Navigate to **Data\WorldGenSettings\dimensions** again, and select its existing "**generator:** [3 entries]" block, and **delete**. 
 
-todo: include image
+[image]
 
 #### 6. Still in the old world, select "**minecraft:the_end:** [2 entries]", and **paste** the **generator** block (that we copied earlier from the new world) inside of it. It should look like this:
 
-todo: include image
+[image]
 
 #### 7. Click **save**. You should now be able to use your v26.5 world on v27! Just copy the world folder into the **saves** folder, and join. 
 
