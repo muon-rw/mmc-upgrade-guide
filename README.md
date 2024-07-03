@@ -17,7 +17,7 @@ To start, you'll need some software to view and edit data files. I recommend NBT
   
 [image]
 
-#### 2. Using Medieval MC Forge 1.20.1 v27, start up the game and generate a new world using your seed, with the same settings.
+#### 2. Using Medieval MC Forge 1.20.1 v27, start up the game and generate a new world using your old seed, with the same settings.
 (To do this with a server, add the seed to server.properties, and start.) 
 
 #### 3. Now, open up the **level.dat** for this *new world* in NBT Studio. If you already opened your old world to get the seed, leave both windows open.
