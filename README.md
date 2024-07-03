@@ -8,6 +8,7 @@ What this means is that existing worlds won't load by default. But thankfully, t
 
 ## So how do I convert my old world?
 To start, you'll need some software to view and edit data files. I recommend NBT Studio: [https://github.com/tryashtar/nbt-studio](https://github.com/tryashtar/nbt-studio/releases/download/v1.15.3/NbtStudio.exe)
+
 **Make a copy of your existing world before proceeding. Put it somewhere safe in case you make a mistake, so you can start over.**
 
 #### 1. First, we need to get the seed from your old world. If you already have this for some reason, skip to the next step. 
