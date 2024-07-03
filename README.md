@@ -12,7 +12,8 @@ To start, you'll need some software to view and edit data files. I recommend NBT
 
 **Make a copy of your existing world before proceeding. Put it somewhere safe in case you make a mistake, so you can start over.**
 
-#### 1. First, we need to get the seed from your old world. If you already have this for some reason, skip to the next step. 
+#### 1. First, we need to get the seed from your old world. 
+(If you already have this for some reason, skip to the next step.)
 - To find this easily if your v26.5 world is still running, you can use the `/seed` command in-game if you have cheats enabled or Op permissions.
 - Otherwise, inside the world folder, open up the **level.dat** file using NBT Studio, and you can find the seed as one of the values in **Data\WorldGenSettings**
   
