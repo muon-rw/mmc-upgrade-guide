@@ -7,8 +7,6 @@ What this means is that existing worlds won't load by default. While I recommend
 
 Thankfully, this is something you can do fairly simply.
 
-*Note: You may end up with some "hard lines" of sheer cliffs where the old generation connects with the new in some cases. This is an unfortunate potential side effect of changing generators, and not a sign of corruption*
-
 ## So how do I convert my old world?
 To start, you'll need some software to view and edit data files. I recommend NBT Studio: [https://github.com/tryashtar/nbt-studio](https://github.com/tryashtar/nbt-studio/releases/download/v1.15.3/NbtStudio.exe)
 
@@ -50,3 +48,6 @@ To start, you'll need some software to view and edit data files. I recommend NBT
 - You should now be able to use your v26.5 world on v27! Just copy the world folder into the **saves** folder, and join. 
 
 Happy crafting! If you have issues, please join our Discord https://discord.gg/lunapixel and head to the **#medieval-mc-forge** channel. 
+
+
+*Note: You may end up with some "hard lines" of sheer cliffs where the old generation connects with the new in some cases. This is an unfortunate potential side effect of changing generators, and not a sign of corruption*
