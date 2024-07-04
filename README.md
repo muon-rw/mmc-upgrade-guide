@@ -17,32 +17,42 @@ To start, you'll need some software to view and edit data files. I recommend NBT
 - To find this easily if your v26.5 (or older) world is still running, you can use the `/seed` command in-game if you have cheats enabled or Op permissions.
 - Otherwise, inside the world folder, open up the **level.dat** file using NBT Studio, and you can find the seed as one of the values in **Data\WorldGenSettings**
   
-[image]
+![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/3dd6b224-3314-4d20-a0bb-4cc92c79b612)
+
 
 ### 2. Generate a new level.dat
 - Using Medieval MC Forge 1.20.1 v27, start up the game and generate a new world using your old seed, with the same settings.
 (To do this with a server, add the seed to server.properties, and start.) 
+![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/129858f9-b103-4bad-95d8-d132dda780bb)
 
 ### 3. Open the new level.dat 
 - Open the **level.dat** for this *new world* in NBT Studio. *If your old level.dat was open to get the seed, leave both windows open.*
 
 ### 4. Copy the new generator block
-- In the *new* **level.dat**, go to **Data\WorldGenSettings\dimensions\minecraft:the_end**, select the block that says "**generator:** [3 entries]", and **copy**. 
+- In the *new* **level.dat**, go to **Data\WorldGenSettings\dimensions\minecraft:the_end**, select the block that says "**generator:** [3 entries]", and **copy**.
 
-[image]
+![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/7ffefc68-cc4e-434b-a616-8bc308e3c9b5)
 
 ### 5. Delete your old world's generator block
 - Now open your *old world's* **level.dat** (or just go back to it, if it's already open).
-- Navigate to **Data\WorldGenSettings\dimensions**, and select its existing "**generator:** [3 entries]" block, and **delete**. 
+- Navigate to **Data\WorldGenSettings\dimensions\minecraft:the_end**, and select its existing "**generator:** [3 entries]" block, and **delete**. 
 
-[image]
+It should now look like this:
+![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/161ba5ae-db5b-49fd-a9fb-01565c4cc9bd)
+
 
 ### 6. Paste the new generator block into the old level.dat
 - Still in the old world, select "**minecraft:the_end:** [2 entries]", and **paste** the **generator** block (that we copied earlier from the new world) inside of it. It should look like this:
 
-[image]
+When you're done, it should look like this!
+![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/45337715-665a-4138-bb7d-3266e209a4e5)
+
 
 ### 7. Repeat steps 4-6, but with **minecraft:overworld** instead of **minecraft:the_end** 
+### 8. Change your old world's version number to v27
+- In **Data\modPackinfo:** [3 entries], change modPackVersion to v27
+![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/e9a80378-d3e5-46de-91df-c919c3f15bc7)
+![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/f62198b1-8f9a-4da1-9235-8fd7cebc31b7)
 
 ### 8. Click **save**. 
 - You should now be able to use your v26.5 world on v27! Just copy the world folder into the **saves** folder, and join. 
