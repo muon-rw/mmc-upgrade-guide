@@ -3,7 +3,7 @@
 
 Unfortunately, due to worldgen incompatibilities causing corruption over time, some crucial worldgen mods had to be removed in this version. 
 
-What this means is that existing worlds won't load by default. While I recommend starting a new world anyway to see any newly added content, I understand some people want to keep playing their old worlds. 
+This means existing worlds won't load by default. While I recommend starting a new world anyway to see any newly added content, I understand some people want to keep playing their old worlds. 
 
 Thankfully, this is something you can do fairly simply.
 
