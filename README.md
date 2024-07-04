@@ -51,11 +51,16 @@ When you're done, it should look like this!
 ### 7. Repeat steps 4-6, but with **minecraft:overworld** instead of **minecraft:the_end** 
 ### 8. Change your old world's version number to v27
 - In **Data\modPackinfo:** [3 entries], change modPackVersion to v27
-![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/e9a80378-d3e5-46de-91df-c919c3f15bc7)
-![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/f62198b1-8f9a-4da1-9235-8fd7cebc31b7)
 
-### 8. Click **save**. 
-- You should now be able to use your v26.5 world on v27! Just copy the world folder into the **saves** folder, and join. 
+![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/e9a80378-d3e5-46de-91df-c919c3f15bc7)
+
+![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/f62198b1-8f9a-4da1-9235-8fd7cebc31b7)
+- Click Ok
+
+### 9. **Save**. 
+![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/2226fb65-5144-4269-942a-8c19633976c5)
+
+- You should now be able to use your v26.5 world on v27! Just copy the world folder into the **saves** folder of a v27 installation, and play! 
 
 Happy crafting! If you have issues, please join our Discord https://discord.gg/lunapixel and head to the **#medieval-mc-forge** channel. 
 
