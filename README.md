@@ -52,7 +52,7 @@ When you're done, it should look like this!
 
 
 ### 7. Repeat steps 4-6, but with **minecraft:overworld**, and **minecraft:the_nether** instead of **minecraft:the_end** 
-- This is important! Make sure all 3 have been replaced before trying to start your world.
+- This is important! Make sure all 3 vanilla dimensions have been replaced before trying to start your world.
 
 ### 8. Change your old world's version number to v27
 - In **Data\modPackinfo:** [3 entries], change modPackVersion to v27
