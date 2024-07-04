@@ -51,8 +51,8 @@ When you're done, it should look like this!
 ![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/45337715-665a-4138-bb7d-3266e209a4e5)
 
 
-### 7. Repeat steps 4-6, but with **minecraft:overworld**, and **minecraft:the_nether** instead of **minecraft:the_end** 
-- This is important! Make sure all 3 vanilla dimensions have been replaced before trying to start your world.
+### 7. Repeat steps 4-6, but with **minecraft:overworld**, and **minecraft:the_nether**
+- This is important! Make sure all 3 vanilla dimensions (**minecraft:overworld**, **minecraft:the_nether**, and **minecraft:the_end** have been replaced before trying to start your world.
 
 ### 8. Change your old world's version number to v27
 - In **Data\modPackinfo:** [3 entries], change modPackVersion to v27
