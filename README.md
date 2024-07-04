@@ -26,6 +26,7 @@ To start, you'll need some software to view and edit data files. I recommend NBT
 - Using Medieval MC Forge 1.20.1 v27, start up the game and generate a new world using your old seed, with the same settings.
 (To do this with a server, add the seed to server.properties, and start.) 
 ![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/129858f9-b103-4bad-95d8-d132dda780bb)
+- Create the world and wait for it to generate. 
 
 ### 3. Open the new level.dat 
 - Open the **level.dat** for this *new world* in NBT Studio. *If your old level.dat was open to get the seed, leave both windows open.*
