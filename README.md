@@ -45,7 +45,7 @@ It should now look like this:
 
 
 ### 6. Paste the new "generator" into the old level.dat
-- Still in the old world, select "**minecraft:the_end:** [2 entries]", and **paste** the **generator** (that we copied earlier) inside. It should look like this:
+- Still in the old world, select "**minecraft:the_end:** [2 entries]", and **paste** the **generator** (that we copied earlier) inside. 
 
 When you're done, it should look like this!
 ![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/45337715-665a-4138-bb7d-3266e209a4e5)
