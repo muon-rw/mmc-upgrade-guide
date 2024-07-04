@@ -38,14 +38,14 @@ To start, you'll need some software to view and edit data files. I recommend NBT
 
 ### 5. Delete your old world's "generator"
 - Now open your *old world's* **level.dat** (or just go back to it, if it's already open).
-- Navigate to **Data\WorldGenSettings\dimensions\minecraft:the_end**, and select its existing "**generator:** [3 entries]" block, and **delete**. 
+- Navigate to **Data\WorldGenSettings\dimensions\minecraft:the_end**, and select its existing "**generator:** [3 entries]", and **delete**. 
 
 It should now look like this:
 ![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/161ba5ae-db5b-49fd-a9fb-01565c4cc9bd)
 
 
 ### 6. Paste the new "generator" into the old level.dat
-- Still in the old world, select "**minecraft:the_end:** [2 entries]", and **paste** the **generator** block (that we copied earlier from the new world) inside of it. It should look like this:
+- Still in the old world, select "**minecraft:the_end:** [2 entries]", and **paste** the **generator** (that we copied earlier) inside. It should look like this:
 
 When you're done, it should look like this!
 ![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/45337715-665a-4138-bb7d-3266e209a4e5)
