@@ -31,12 +31,12 @@ To start, you'll need some software to view and edit data files. I recommend NBT
 ### 3. Open the new level.dat 
 - Open the **level.dat** for this *new world* in NBT Studio. *If your old level.dat was open to get the seed, leave both windows open.*
 
-### 4. Copy the new generator block
+### 4. Copy the new "generator"
 - In the *new* **level.dat**, go to **Data\WorldGenSettings\dimensions\minecraft:the_end**, select the block that says "**generator:** [3 entries]", and **copy**.
 
 ![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/7ffefc68-cc4e-434b-a616-8bc308e3c9b5)
 
-### 5. Delete your old world's generator block
+### 5. Delete your old world's "generator"
 - Now open your *old world's* **level.dat** (or just go back to it, if it's already open).
 - Navigate to **Data\WorldGenSettings\dimensions\minecraft:the_end**, and select its existing "**generator:** [3 entries]" block, and **delete**. 
 
@@ -44,7 +44,7 @@ It should now look like this:
 ![image](https://github.com/muon-rw/mmc-upgrade-guide/assets/128171313/161ba5ae-db5b-49fd-a9fb-01565c4cc9bd)
 
 
-### 6. Paste the new generator block into the old level.dat
+### 6. Paste the new "generator" into the old level.dat
 - Still in the old world, select "**minecraft:the_end:** [2 entries]", and **paste** the **generator** block (that we copied earlier from the new world) inside of it. It should look like this:
 
 When you're done, it should look like this!
